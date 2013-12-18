@@ -84,6 +84,8 @@ public class LoginActivity extends Activity {
 					@Override
 					public void onClick(View view) {
 						attemptLogin();
+						Intent i=new Intent(LoginActivity.this, AddQuote.class);
+				        startActivity(i);
 					}
 				});
 	}
@@ -149,8 +151,7 @@ public class LoginActivity extends Activity {
 			showProgress(true);
 			mAuthTask = new UserLoginTask();
 			mAuthTask.execute((Void) null);
-			Intent i=new Intent(LoginActivity.this, AddQuote.class);
-	        startActivity(i);
+			
 		}
 	}
 
