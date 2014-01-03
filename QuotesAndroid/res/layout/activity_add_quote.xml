@@ -15,7 +15,7 @@
                 android:id="@+id/name"
                 android:layout_width="284dp"
                 android:layout_height="wrap_content"
-                android:hint="Enter Project Name"
+                android:hint="Enter Name"
                 android:maxLines="1"
                 android:singleLine="true" />
 
@@ -23,7 +23,7 @@
                 android:id="@+id/projectName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter project type "
+                android:hint="Enter Project Name"
                 android:maxLines="1"
                 android:singleLine="true" />
             
@@ -31,7 +31,7 @@
                 android:id="@+id/quoteContent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Project details"
+                android:hint="Enter Quote"
                 android:maxLines="10"
                 android:singleLine="false" />
 
